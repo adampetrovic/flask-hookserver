@@ -61,7 +61,7 @@ can each be turned off with a config flag.
 
 .. code-block:: python
 
-    app = HookServer(__name__)
+    app = Flask(__name__)
     app.config['VALIDATE_IP'] = False
     app.config['VALIDATE_SIGNATURE'] = False
 
